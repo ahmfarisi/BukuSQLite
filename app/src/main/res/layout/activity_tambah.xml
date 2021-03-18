@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_tambah_buku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:id="@+id/tv_judul_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INPUT DATA BUKU"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            />
+
+        <EditText
+            android:id="@+id/et_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Judul Buku"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp"
+            />
+
+        <EditText
+            android:id="@+id/et_penulis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Penulis Buku"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp"
+            />
+
+        <EditText
+            android:id="@+id/et_tahun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tahun Terbit Buku"
+            android:textSize="20sp"
+            android:layout_marginBottom="6dp"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMPAN"
+            android:layout_marginTop="32dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

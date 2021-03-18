@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cv_buku"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp">
+
+    <LinearLayout
+        android:id="@+id/ll_buku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Buku"
+            android:textSize="20sp"
+            android:padding="6dp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"
+            android:textSize="20sp"
+            android:padding="6dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_penulis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penulis Buku"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="6dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_tahun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tahun Terbit Buku"
+            android:textSize="20sp"
+            android:padding="6dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
