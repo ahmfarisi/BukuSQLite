@@ -27,12 +27,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-                /*CREATE TABLE tbl_buku (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    judul TEXT,
-                    penulis TEXT,
-                    tahun INTEGER );
-                */
+
         String query = "CREATE TABLE " + TABLE_NAME + " (" +
                 FIELD_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 FIELD_JUDUL + " TEXT, " +
@@ -59,13 +54,6 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         long eksekusi = db.insert(TABLE_NAME, null, cv);
 
         return eksekusi;
-
-//        if(eksekusi == -1){
-//            Toast.makeText(ctx, "Gagal Menambah Data Buku !", Toast.LENGTH_SHORT).show();
-//        }
-//        else{
-//            Toast.makeText(ctx, "Buku Berhasil Ditambah", Toast.LENGTH_SHORT).show();
-//        }
     }
 
     public long ubahBuku(String id, String judul, String penulis, int tahun){
