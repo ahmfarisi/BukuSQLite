@@ -90,4 +90,4 @@ Repositori ini telah dibuat video tutorialnya, bisa di cek pada halaman berikut.
 
  - **Part 1 :** https://ahmfarisi.com/2021/03/17/record-pengajaran-android-crud-sqlite-part-1-membuat-layout-create-dan-retrieve/
  - **Part 2 :** https://ahmfarisi.com/2021/03/18/record-pengajaran-android-crud-sqlite-part-2-create-dan-retrieve/
- - **Part 3 :** On Progress
+ - **Part 3 :** https://ahmfarisi.com/2021/03/23/android-crud-sqlite-part-3-update-dan-delete/
